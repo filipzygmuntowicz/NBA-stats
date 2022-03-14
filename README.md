@@ -4,7 +4,7 @@
 
 You need to install required libraries via:
 ```
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 # USAGE:
 
