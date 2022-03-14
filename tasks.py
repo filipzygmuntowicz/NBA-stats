@@ -134,11 +134,12 @@ if args.task == "players-stats":
             {'page': currentPage + 1, 'per_page': 100, 'search': name}, 5, 200)
         playersData = playersData.json()
         for player in playersData["data"]:
-            players.add(
-                Player(player["first_name"] + " " + player["last_name"],
-                       poundsToKg(player["weight_pounds"]),
-                       feetToMeters(player["height_feet"],
-                       player["height_inches"])))
+            if player["first_name"] == name or player["last_name"] == name:
+                players.add(
+                    Player(player["first_name"] + " " + player["last_name"],
+                           poundsToKg(player["weight_pounds"]),
+                           feetToMeters(player["height_feet"],
+                           player["height_inches"])))
 
         currentPage = playersData["meta"]["current_page"]
         totalPages = playersData["meta"]["total_pages"]
