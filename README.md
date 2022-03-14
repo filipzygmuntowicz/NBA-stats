@@ -23,3 +23,5 @@ where task_name is one of:
     - `sqlite` saves stats to sqlite database,
     - `stdout` prints the stats in console).
   If no `--output` is provided the script uses `--output stdout` by default.
+
+ ###### Filip Zygmuntowicz 2022 internship task for Profile Software.
