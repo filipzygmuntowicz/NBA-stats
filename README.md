@@ -24,4 +24,4 @@ where task_name is one of:
     - `stdout` prints the stats in console).
   If no `--output` is provided the script uses `--output stdout` by default.
 
- ###### Filip Zygmuntowicz 2022 internship task for Profile Software.
+ ###### Filip Zygmuntowicz 2022 internship task for Profile Software
