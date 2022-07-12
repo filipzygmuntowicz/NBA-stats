@@ -1,4 +1,4 @@
-# profileSoftwareInternshipTasks
+# NBA_stats
 
 # PREQUISITES:
 
